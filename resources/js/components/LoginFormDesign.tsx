@@ -38,7 +38,7 @@ export default function LoginBumdes() {
           <div className="flex flex-col items-center gap-2">
             <div className="flex gap-4 items-center justify-center">
               <img src="/assets/images/Bumdes Logo.png" alt="Logo 1" width={100} height={40} />
-              <img src="/assets/images/SumberJaya Logo.png" alt="Logo 2" width={80} height={40} />
+              <img src="/assets/images/SumberJaya Logo.png" alt="Logo 2" width={68} height={40} />
             </div>
             <h2 className="text-lg font-semibold mt-4">Masuk ke akun</h2>
             <p className="text-sm text-center text-gray-500">

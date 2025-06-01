@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\LoginController;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
@@ -16,7 +17,7 @@ Route::middleware(['auth', 'verified'])->group(function () {
 
 Route::get('/Login', [LoginController::class, 'index'])->name('loginform');
 
-Route::get('tes', fn() => 'Tes kolab');
+Route::get('Home', [HomeController::class, 'index'])->name('HomeCompro');
 
 
 require __DIR__.'/settings.php';
